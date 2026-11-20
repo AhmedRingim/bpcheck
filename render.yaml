@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: bp                    # ← this makes the URL https://bp.onrender.com
+    name: bpcheck                   # ← this makes the URL https://bpcheck.onrender.com
     runtime: python
     plan: free
     buildCommand: pip install -r requirements.txt
